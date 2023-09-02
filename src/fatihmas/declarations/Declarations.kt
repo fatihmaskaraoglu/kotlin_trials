@@ -1,5 +1,7 @@
 package fatihmas.declarations
 
+typealias EmployeeSet = Set<Employee>
+
 fun main(args: Array<String>){
     val number = 25
     val number2: Int
@@ -22,6 +24,8 @@ fun main(args: Array<String>){
     }else{
         employee2 = Employee("Mike", 150)
     }
+
+    val employees: EmployeeSet
 }
 
 class Employee(var name: String, val id: Int){
