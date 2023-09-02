@@ -6,7 +6,7 @@ fun main(args: Array<String>){
     val number3:Short = 25
 
     number2 = 10
-    //number2 = 20 can't assign e val variable for second time
+    //number2 = 20 can't assign a val variable for second time
 
     var number4: Int
     number4 = 10
