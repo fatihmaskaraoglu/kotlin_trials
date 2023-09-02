@@ -1,3 +1,5 @@
+package dummy.main.kotlin
+
 fun main(args: Array<String>) {
     area(10, 20)
 }

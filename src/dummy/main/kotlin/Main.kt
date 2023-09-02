@@ -1,3 +1,5 @@
+package dummy.main.kotlin
+
 fun main(args: Array<String>) {
     println("Hello World!")
 
