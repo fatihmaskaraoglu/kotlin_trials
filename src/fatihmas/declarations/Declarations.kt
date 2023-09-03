@@ -26,8 +26,32 @@ fun main(args: Array<String>){
     }
 
     val employees: EmployeeSet
+
+    val employeeOne = Employee("Mary",1)
+    val employeeTwo = Employee("John",2)
+    val employeeThree = Employee("John", 2)
+    println(employeeOne == employeeTwo) //check structural equality
+    println(employeeTwo == employeeThree) //check structural equality
+    println(employeeOne.equals(employeeTwo)) //check structural equality
+    println(employeeTwo.equals(employeeTwo)) //check structural equality
+    println(employeeOne === employeeTwo) //check referential equality
+    println(employeeTwo === employeeThree) //check referential equality
+    val employeeFour = employeeTwo
+    println(employeeFour === employeeTwo) //check referential equality
+
+    println(employeeFour != employeeTwo)
+    println(employeeFour !== employeeTwo)
+
+    println(employeeTwo != employeeThree)
+    println(employeeTwo !== employeeThree)
 }
 
 class Employee(var name: String, val id: Int){
 
+    override fun equals(obj: Any?): Boolean{
+        if(obj is Employee){
+            return name == obj.name && id ==obj.id
+        }
+        return false
+    }
 }
