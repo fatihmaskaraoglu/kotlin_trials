@@ -44,6 +44,24 @@ fun main(args: Array<String>){
 
     println(employeeTwo != employeeThree)
     println(employeeTwo !== employeeThree)
+
+    val x = 0x00101101
+    val y = 0x11010112
+    var something : Any = employeeFour
+    if(something is Employee){
+        println("It is Employee")
+        val newEmployeeSome = something as Employee //just check cast work
+        println(newEmployeeSome.name)
+    }
+    //without cast
+    if(something is Employee){
+        println(something.name)
+    }
+    if(something is Employee){
+        something = employeeOne
+        println(something.name)
+    }
+
 }
 
 class Employee(var name: String, val id: Int){
