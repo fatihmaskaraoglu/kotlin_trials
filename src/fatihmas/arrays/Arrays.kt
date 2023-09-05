@@ -49,6 +49,4 @@ fun main(args: Array<String>) {
     for(number in someOtherArray){
         println(number)  //print zeros
     }
-
-
 }
