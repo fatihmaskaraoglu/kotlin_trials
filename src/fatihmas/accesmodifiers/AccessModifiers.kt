@@ -1,5 +1,7 @@
 package fatihmas.accesmodifiers
 
+val MY_CONSTANT = 100
+
 fun main(args: Array<String>){
 
     val emp = Employee("John")
@@ -13,6 +15,28 @@ fun main(args: Array<String>){
     val emp3 = Employee3("John2",false)
     println(emp3.firstName)
     // println(emp3.fullTime) can't access
+
+    println(MY_CONSTANT)
+
+    val car = Car("blue","Toyota", 2015)
+    println(car) // data class have toString for all elements
+    val car2 = Car("blue","Toyota", 2015)
+    println(car == car2)// it will return true
+
+    val emp4 = Employee("John")
+    val emp5 = Employee("John")
+    println(emp4 == emp5) //it will return false
+
+    val car3 = car.copy()
+    println(car3)
+    val car4 = car.copy(year = 2016)
+    println(car4)
+
+}
+
+
+data class  Car(val color: String, val model: String, val year: Int){
+
 }
 
 
