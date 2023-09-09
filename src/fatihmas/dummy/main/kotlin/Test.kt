@@ -1,4 +1,4 @@
-package dummy.main.kotlin
+package fatihmas.dummy.main.kotlin
 
 fun main(args: Array<String>) {
     area(10, 20)
