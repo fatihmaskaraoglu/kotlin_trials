@@ -23,11 +23,22 @@ class SpecialLaserPrinter(modelName: String, ppm: Int) : LaserPrinter (modelName
 
 }
 
-open class Something {
+open class Something :MySubInterface{
     val someProperty: String
+    override val number: Int = 25
+    //override val number2: Int = 40
+
     constructor(someParameter: String){
         someProperty = someParameter
         println("I'm in the parent's constructor")
+    }
+
+    override fun myFunction(str: String): String {
+        TODO("Not yet implemented")
+    }
+
+    override fun mySubFunction(num: Int): String {
+        TODO("Not yet implemented")
     }
 }
 
@@ -35,4 +46,16 @@ class SomethingElse: Something{
     constructor(someOtherParameter: String): super(someOtherParameter){
         println("I'm in the childs's constructor")
     }
+}
+
+interface MyInterface{
+    val number: Int
+    val number2: Int
+        get() = 45
+
+    fun myFunction(str: String): String
+}
+
+interface MySubInterface: MyInterface{
+    fun mySubFunction(num: Int): String
 }
