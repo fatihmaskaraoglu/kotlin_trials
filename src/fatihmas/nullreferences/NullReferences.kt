@@ -36,6 +36,7 @@ fun main(args: Array<String>){
         Exception in thread "main" java.lang.NullPointerException
         at fatihmas.nullreferences.NullReferencesKt.main(NullReferences.kt:31)
      */
+
 }
 
 fun printText(text: String){
