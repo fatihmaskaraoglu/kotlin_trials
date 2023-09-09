@@ -21,6 +21,9 @@ fun main(args: Array<String>): Unit{
         println(c)
     }
 
+    println(Utils().upperFirstAndLast("this is all in lowercase"))
+    val str = "this is all in lowercase"
+    println(str.upperFirstAndLastWithExtension())
 
 }
 
@@ -38,6 +41,11 @@ fun printColors(vararg cars: Car, str: String ){
     for(car in cars){
         println(car.color)
     }
+}
+
+fun String.upperFirstAndLastWithExtension(): String{
+    val upperFirst = substring(0,1).uppercase() + substring(1)
+    return  upperFirst.substring(0, upperFirst.length-1)+ upperFirst.substring(upperFirst.length-1, upperFirst.length).uppercase()
 }
 
 class Employee(val firstName: String){
