@@ -45,5 +45,3 @@ V
 &src/fatihmas/dummy/main/kotlin/Test.kt,e\d\edaec144d59078cbe63efaf0f2bdffd58ff7b231
 O
 src/fatihmas/functions/Utils.kt,0\c\0c807642150756e91c852d3117c309598df9a815
-S
-#src/fatihmas/functions/Functions.kt,e\c\ecb5d55715d747172703000a3e5521f6b295e586
