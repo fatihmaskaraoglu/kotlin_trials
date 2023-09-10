@@ -20,8 +20,18 @@ fun main(args: Array<String>){
         }
     })
     println(thisIsMutable)
+
+    println(Department.ACCOUNTING.getDeptInfo())
 }
 
+enum class Department(val fullName: String, val numEmployees: Int){
+    HR("Humen Resources",5),
+    IT("Information Technology", 10),
+    ACCOUNTING("Accounting", 3),
+    SALES("Sales", 20);
+
+    fun getDeptInfo() = "The $fullName department has $numEmployees"
+}
 
 object CompanyCommunications {
 
@@ -54,3 +64,5 @@ interface SomeInterface{
 fun wantsSomeInterface(si: SomeInterface){
     println("Printing from wantSomeInterface ${si.mustImplement(22)}")
 }
+
+
