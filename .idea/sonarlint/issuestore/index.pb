@@ -1,10 +1,6 @@
 
 U
 %.idea/libraries/KotlinJavaRuntime.xml,0\2\02ddf5725f2ec9b67991423205d2b1a2009ccd06
-M
-src/dummy/main/kotlin/Main.kt,4\3\43001ef1c0d6f0ecf3985f69abc30d25389d6fc0
-M
-src/dummy/main/kotlin/Test.kt,3\9\39126b5af2bd7ca0dfd0ba75d88c15134111de60
 U
 %src/fatihmas/helloworld/HelloWorld.kt,0\2\02fd2ce3493de449a185531ad0f6a9633afd0f47
 w
@@ -23,3 +19,31 @@ Q.idea/sonarlint/securityhotspotstore/4/3/43001ef1c0d6f0ecf3985f69abc30d25389d6f
 Q.idea/sonarlint/securityhotspotstore/3/9/39126b5af2bd7ca0dfd0ba75d88c15134111de60,3\c\3c04126e1f0c246eafcad7d1f32fcd47876fe246
 w
 G.idea/sonarlint/issuestore/0/2/02ddf5725f2ec9b67991423205d2b1a2009ccd06,e\8\e8505bb65923fd89d45fc0823a3d609b167436e1
+S
+#src/fatihmas/datatypes/Datatypes.kt,b\3\b352058de3a080c3e61609df522fc9d532ff2b6b
+h
+8src/fatihmas/nullreferences/javacode/NullReferences.java,3\a\3a6b337c38fdd4fd804550115dda2bc45c4aa7f3
+Y
+)src/fatihmas/declarations/Declarations.kt,3\b\3b4c24d2fd7e3c7c11682e77330e605fc6a9c057
+M
+src/fatihmas/arrays/Arrays.kt,a\2\a2e1e58514766da7c7ef460597d41433bf36cabf
+U
+%src/fatihmas/javacode/DummyClass.java,1\3\134ab756655a0e260c58a3c33341f9fd4d2d7e3e
+N
+src/fatihmas/stings/Strings.kt,2\6\263e4bcba558d1284124ecc66be61670fdedba03
+]
+-src/fatihmas/nullreferences/NullReferences.kt,6\0\60b06ecccd571721607b4b46e0ee5e1a0573897b
+f
+6src/fatihmas/nullreferences/ArraysAndNullReferences.kt,5\8\588ca86992f96ebb6afaf446ad7dff85dce074a7
+f
+6src/fatihmas/accesmodifiers/javacode/JavaEmployee.java,2\1\21676f5648d67467ab5bafa1781ca034f40290ca
+^
+.src/fatihmas/accesmodifiers/AccessModifiers.kt,f\f\ff61d2ac57912ee9f7e024c5833d1e20ab1be2f4
+V
+&src/fatihmas/dummy/main/kotlin/Main.kt,2\4\2459d56296904be2bf5c2215679f32f5ab002b7d
+V
+&src/fatihmas/dummy/main/kotlin/Test.kt,e\d\edaec144d59078cbe63efaf0f2bdffd58ff7b231
+O
+src/fatihmas/functions/Utils.kt,0\c\0c807642150756e91c852d3117c309598df9a815
+S
+#src/fatihmas/functions/Functions.kt,e\c\ecb5d55715d747172703000a3e5521f6b295e586
