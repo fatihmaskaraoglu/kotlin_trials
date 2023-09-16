@@ -3,8 +3,6 @@ U
 %.idea/libraries/KotlinJavaRuntime.xml,0\2\02ddf5725f2ec9b67991423205d2b1a2009ccd06
 U
 %src/fatihmas/helloworld/HelloWorld.kt,0\2\02fd2ce3493de449a185531ad0f6a9633afd0f47
-w
-G.idea/sonarlint/issuestore/4/3/43001ef1c0d6f0ecf3985f69abc30d25389d6fc0,0\7\07519e4304d164ffdf37c2c4139cb43b1c04f9b0
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 S
@@ -13,10 +11,6 @@ S
 Q.idea/sonarlint/securityhotspotstore/0/2/02ddf5725f2ec9b67991423205d2b1a2009ccd06,9\7\97b2091e867096ba2b4218a56cc21348bdacc2c0
 Å
 Q.idea/sonarlint/securityhotspotstore/0/2/02fd2ce3493de449a185531ad0f6a9633afd0f47,5\6\561d49d0612d495f3d2b68947a124db5def6d75d
-Å
-Q.idea/sonarlint/securityhotspotstore/4/3/43001ef1c0d6f0ecf3985f69abc30d25389d6fc0,7\8\787107bb9100078aa906630324eab5a83cac1d8d
-Å
-Q.idea/sonarlint/securityhotspotstore/3/9/39126b5af2bd7ca0dfd0ba75d88c15134111de60,3\c\3c04126e1f0c246eafcad7d1f32fcd47876fe246
 w
 G.idea/sonarlint/issuestore/0/2/02ddf5725f2ec9b67991423205d2b1a2009ccd06,e\8\e8505bb65923fd89d45fc0823a3d609b167436e1
 S
@@ -45,3 +39,17 @@ V
 &src/fatihmas/dummy/main/kotlin/Test.kt,e\d\edaec144d59078cbe63efaf0f2bdffd58ff7b231
 O
 src/fatihmas/functions/Utils.kt,0\c\0c807642150756e91c852d3117c309598df9a815
+S
+#src/fatihmas/inheritance/Printer.kt,c\9\c97f9d13e58068d0a92f125af102ac116c632bb8
+\
+,src/fatihmas/objects/javacode/SomeClass.java,a\4\a43f3de5879cf3145cb2b40efc28853ed0b1fcb5
+a
+1src/fatihmas/objects/javacode/SomeOtherClass.java,e\2\e2b45a76843845a6ae44580d422e47db7b3f6042
+_
+/src/fatihmas/singleton/CompanyCommunications.kt,6\4\6401928363a28df54aba96dc82c1b66ad11fa3c3
+S
+#src/fatihmas/functions/Functions.kt,e\c\ecb5d55715d747172703000a3e5521f6b295e586
+Q
+!src/fatihmas/singleton/Imports.kt,4\e\4e6f4f84e97943a39cd627bb7dc4c8e234a44bb4
+Z
+*src/fatihmas/anotherpackage/AnotherFile.kt,3\0\30a3dbb7a2d35eb087bef042f098e8e59198c361
