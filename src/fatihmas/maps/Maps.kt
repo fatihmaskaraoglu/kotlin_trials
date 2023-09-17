@@ -2,6 +2,19 @@ package fatihmas.maps
 
 fun main(args: Array<String>) {
 
+
+    val setInts = setOf(10, 15, 19, 5, 3, -22)
+    println(setInts.plus(20))
+    println(setInts.plus(10))
+    println(setInts.minus(19))
+    println(setInts.average())
+    println(setInts.drop(3)) // drop first 3 elements
+
+    val mutableInts = mutableSetOf(1,2,3,4,5)
+    mutableInts.plus(10)
+    println(mutableInts)
+
+
     val immutableMap = mapOf<Int, Car>(1 to Car("green", "Toyota", 2015),
         2 to Car("red", "Ford", 2016),
         3 to Car("silver", "Honda", 2013))
