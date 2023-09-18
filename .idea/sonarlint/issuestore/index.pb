@@ -53,3 +53,27 @@ Q
 !src/fatihmas/singleton/Imports.kt,4\e\4e6f4f84e97943a39cd627bb7dc4c8e234a44bb4
 Z
 *src/fatihmas/anotherpackage/AnotherFile.kt,3\0\30a3dbb7a2d35eb087bef042f098e8e59198c361
+Q
+!src/fatihmas/lambdas/Lambdasv2.kt,f\9\f960e871571950c02bf5d2dd07e4eed7a64e4313
+Y
+)src/fatihmas/ifexpression/IfExpression.kt,e\6\e665fafe6557cdd59913bf0c35b5465a6ca9b3c8
+Q
+!src/fatihmas/collections/Lists.kt,5\c\5ceef84b33c4ee4faf1a9c05e7af5eb9bee100de
+Q
+!src/fatihmas/trycatch/TryCatch.kt,a\7\a7418f8bda93ef786455a1ac797cb967cb1c06f3
+K
+src/fatihmas/loops/loops.kt,7\1\71bb1716e83b51d177f3d2726da51447a84b86b4
+W
+'src/fatihmas/collections/Collections.kt,7\6\7661ae01a889522e72c6b921ff772047f42e369e
+]
+-src/fatihmas/whenexpression/WhenExpression.kt,f\6\f687a5f0042469227589e380a865ef12914b4879
+O
+src/fatihmas/lambdas/Lambdas.kt,c\d\cd83fbf0bff615a7678714fe9d283cf65cb1ab1f
+k
+;src/fatihmas/whenexpression/javacode/SwitchExampleJava.java,f\6\f6e0ced8de5f5eac61c88f9b37be65fa2d0456d9
+I
+src/fatihmas/maps/Maps.kt,8\7\87f644c926312df0d3a49501f50678a1319909fe
+a
+1src/fatihmas/collectionsstuff/CollectionsStuff.kt,2\b\2b7d71d72d7f157d7084f196c89a913c62ef352e
+`
+0src/fatihmas/generics/javacode/JavaGenerics.java,c\6\c69c84bd2d069cd745ef6f8cd488f8787e61e182
